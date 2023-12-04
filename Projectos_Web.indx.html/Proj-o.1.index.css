@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}header{
+    background-color: rgb(0, 128, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: white;
+    width: 100%;
+    position: fixed;
+}header .tb1{
+    border-top: 4px solid white;
+    width: 100%;
+}header .tb2{
+    text-align: center;
+    width: 100%;
+}header td{
+    padding: 0px 5px;
+}.tb2 td{
+    border: 2px solid white;
+}nav{
+    position: absolute;
+    margin: 50px 5% 0 5%;
+    width: 90%;
+    background-color: rgb(0, 128, 255);    
+}nav table{
+    color: white;
+    width: 90%;
+    margin: auto;
+    text-align: center;    
+    font-size: 10px;
+}nav td{
+    border: 2px solid white;    
+}#voltar{
+    display: none;
+}
+main{
+    position: absolute;
+    margin: 110px 5% 0 5%;
+    width: 90%;
+}.s1 h2{
+    margin-top: 20px;
+}
+.s1{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: rgb(0, 128, 255);
+    padding: 2px;
+    color: white;
+    box-shadow: 3px 2px 3px 3px rgba(0, 0, 0, 0.663);
+}.s1 h1{
+    font-size: 34px;
+    margin: 50px 0;
+}.s1 h3{
+    margin: 10px;
+}.s2 table{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+}.s2 td{
+    border: 2px solid white;
+    background-color: rgb(0, 128, 255);
+    padding: 2px;
+    color: white;
+}.s2{
+    display: none;
+}.d{
+    border: 4px solid white;
+    margin: 10px;
+    border-radius: 10px;
+}

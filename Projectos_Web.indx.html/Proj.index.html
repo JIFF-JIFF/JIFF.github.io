@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj-0.1</title>
+    <link rel="stylesheet" href="Proj-o.1.css">
+</head>
+<body>
+    <header>
+        <table class="tb1">
+            <tr><td><h2>Escala de Trabalho na PRODEL</h2></td><td>Bruno Mauro</td></tr>
+        </table>
+        <table class="tb2">
+            <tr><td onclick="dt()" id="dt"><h4>Dias de Trabalho</h4></td><td onclick="df()" id="dt"><h4>Dias de Folgas</h4></td><td onclick="voltar()" id="voltar"><h4>Voltar</h4></td></tr>
+        </table>
+    </header>
+    <nav>
+        <table class="ts">
+            <tr>
+                <td><h2 id="sh"></h2></td>
+                <td><h2 id="sd"></h2></td>
+                <td><h2 id="sm"></h2></td>
+                <td><h2 id="sa"></h2></td>
+            </tr>
+        </table>
+    </nav>
+    <main>  
+        <section class="s1" id="s1">
+            <div class="d">
+                <h1>Seja Ben-Vindo</h1>
+                <h3>Aplicativo de Escala</h3>
+            </div>
+            <div class="d" id="d2">
+                <h2 id="r"></h2>
+                <h3 id="r1"></h3>
+                <h3 id="r2"></h3>
+            </div>
+        </section>
+        <section class="s2" id="s2">
+            <table>
+                <tr><td id="p">Período</td><td>Dia</td><td>Semana</td><td>Mês</td></tr>
+                <tr><td class="e1" id="e1">Matinal</td><td id="d1">05</td><td id="s1">Terça F</td><td id="m1">Dezembro</td></tr>
+                <tr><td class="e2" id="e2">Laboral</td><td id="d2">06</td><td id="s2">Quarta F</td><td id="m27">Dezembro</td></tr>
+                <tr><td class="e1" id="e3">Matinal</td><td id="d3">10</td><td id="s3">Domingos</td><td id="m3">Dezembro</td></tr>
+                <tr><td class="e2" id="e4">Laboral</td><td id="d4">11</td><td id="s4">Segunda F</td><td id="m4">Dezembro</td></tr>
+                <tr><td class="e1" id="e5">Matinal</td><td id="d5">15</td><td id="s5">Sexta F</td><td id="m5">Dezembro</td></tr>
+                <tr><td class="e2" id="e6">Laboral</td><td id="d6">16</td><td id="s6">Sábado F</td><td id="m6">Dezembro</td></tr>
+                <tr><td class="e2" id="e7">Matinal</td><td id="d7">20</td><td id="s7">Quarta F</td><td id="m7">Dezembro</td></tr>
+                <tr><td class="e1" id="e8">Laboral</td><td id="d8">21</td><td id="s8">Quinta F</td><td id="m8">Dezembro</td></tr>
+                <tr><td class="e2" id="e9">Matinal</td><td id="d9">25</td><td id="s9">Segunda F</td><td id="m9">Dezembro</td></tr>
+                <tr><td class="e1" id="e10">Laboral</td><td id="d10">26</td><td id="s10">Terça F</td><td id="m10">Dezembro</td></tr>
+                <tr><td class="e2" id="e11">Matinal</td><td id="d11">30</td><td id="s11">Sábado F</td><td id="m11">Dezembro</td></tr>
+                <tr><td class="e1" id="e12">Laboral</td><td id="d12">31</td><td id="s12">Domingos F</td><td id="m12">Dezembro</td></tr>
+                <tr><td class="e2" id="e13">Matinal</td><td id="d13">04</td><td id="s13">Quinta F</td><td id="m13">Janeiro</td></tr>
+                <tr><td class="e1" id="e14">Laboral</td><td id="d14">05</td><td id="s14">Sexta F</td><td id="m14">Janeiro</td></tr>
+                <tr><td class="e2" id="e15">Matinal</td><td id="d15">09</td><td id="s15">Terça F</td><td id="m15">Janeiro</td></tr>
+                <tr><td class="e1" id="e16">Laboral</td><td id="d16">10</td><td id="s16">Quarta F</td><td id="m16">Janeiro</td></tr>
+                <tr><td class="e2" id="e17">Matinal</td><td id="d17">14</td><td id="s17">Domingo F</td><td id="m17">Janeiro</td></tr>
+                <tr><td class="e1" id="e18">Laboral</td><td id="d18">15</td><td id="s18">Segunda F</td><td id="m18">Janeiro</td></tr>
+                <tr><td class="e2" id="e19">Matinal</td><td id="d19">19</td><td id="s19">Sexta F</td><td id="m19">Janeiro</td></tr>
+                <tr><td class="e1" id="e20">Laboral</td><td id="d20">20</td><td id="s20">Sábado F</td><td id="m20">Janeiro</td></tr>
+                <tr><td class="e2" id="e21">Matinal</td><td id="d21">24</td><td id="s21">Quarta F</td><td id="m21">Janeiro</td></tr>
+                <tr><td class="e1" id="e22">Laboral</td><td id="d22">25</td><td id="s22">Quinta F</td><td id="m22">Janeiro</td></tr>
+                <tr><td class="e2" id="e23">Matinal</td><td id="d23">29</td><td id="s23">Segunda F</td><td id="m23">Janeiro</td></tr>
+                <tr><td class="e1" id="e24">Laboral</td><td id="d24">30</td><td id="s24">Terça F</td><td id="m24">Janeiro</td></tr>
+                <tr><td class="e2" id="e25">Matinal</td><td id="d25">03</td><td id="s25">Sábado F</td><td id="m25">Fevereiro</td></tr>
+                <tr><td class="e1" id="e26">Laboral</td><td id="d26">04</td><td id="s26">Domingo F</td><td id="m26">Fevereiro</td></tr>
+                <tr><td class="e2" id="e27">Matinal</td><td id="d27">08</td><td id="s27">Quita F</td><td id="m27">Fevereiro</td></tr>
+                <tr><td class="e1" id="e28">Laboral</td><td id="d28">09</td><td id="s28">Sexta F</td><td id="m28">Fevereiro</td></tr>
+                <tr><td class="e2" id="e29">Matinal</td><td id="d29">13</td><td id="s29">Terça F</td><td id="m29">Fevereiro</td></tr>
+            </table>
+        </section>
+        <script src="Proj-0.1.js"></script>
+    </main>
+</body>
+</html>
